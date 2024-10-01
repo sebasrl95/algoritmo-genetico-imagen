@@ -1,4 +1,4 @@
-# Sistema Experto Diagnóstico Médico
+# Generación de Imagen con Algoritmos Genéticos
 
 Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,17 +6,13 @@ Este proyecto fue creado con [Create React App](https://github.com/facebook/crea
 
 Se encuentra en el archivo Python 
 
-`/backend/diagnostic-system.py`
+`/backend/image-detection-api.py`
 
-que expone un API en http://localhost:5000/evaluate que consulta el front.
+que expone un API en http://localhost:5000/upload para enviar la imagen desde el front.
 
-Las reglas del archivo CLIPS se encuentran en
+Para correr el api correr el archivo Python:
 
-`/backend/diagnostico.clp`
-
-Para correr el api el archivo Python:
-
-`python diagnostic-system.py`
+`python image-detection-api.py`
 
 ## Interfaz gráfica
 
